@@ -1,12 +1,12 @@
 
 # 서울시 indoor 의 텍스쳐를 긁어보자.
 
-오픈 API를 가져오는 공부와 세마포어를 적용해보자! 라는 것으로 만들어본 응용 어플리케이션
+오픈 API를 가져오는 공부와 세마포어를 적용해보자! 라는 것으로 만들어본 응용 어플리케이션  
 결과물은 여러개의 png 파일이며 지정된 파일 경로에서 적절하게 건물 id 로 묶여서 저장된다.
 
 진행순서는 다음과 같다.
 
-API를 이용하여 건물 정보 및 id 저장 -> 해당 건물 sbm File 긁어오기 -> sbm file save
+API를 이용하여 건물 정보 및 id 저장 -> 해당 건물 sbm File 긁어오기 -> sbm file save  
  -> sbm 내용물 read -> 건물 텍스쳐 file get -> 텍스쳐 download
 
 API 정보는 다음을 참고 [서울시 indoor API](http://indoormap.seoul.go.kr/openapi/request.html)
@@ -27,7 +27,7 @@ API 정보는 다음을 참고 [서울시 indoor API](http://indoormap.seoul.go.
 ![초기화면](https://github.com/IngIeoAndSpare/getTextureFromIndoorMap-seoul-/blob/master/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/start.png)
 
 각 버튼의 설명은 위의 설명을 참고
-실행순서는 refresh 를 먼저 실행한 후 건물을 선택해서 sbm을 누르거나 선택하지 않는 상태에서 sbmALL을 누른 후 ALLDown 을 누르면 텍스쳐를 다운받을 수 있다.
+실행순서는 refresh 를 먼저 실행한 후 건물을 선택해서 sbm을 누르거나 선택하지 않는 상태에서 sbmALL을 누른 후 ALLDown 을 누르면 텍스쳐를 다운받을 수 있다.  
 SBM, SBMALL은 말 그대로 sbm파일을 다운 받는 것이다. 텍스쳐를 받으려면 SBM 혹은 SBMALL이 우선 실행되어야 한다.
 
 다음은 refresh 를 실행한 화면이다.
