@@ -32,5 +32,5 @@ SBM, SBMALL은 말 그대로 sbm파일을 다운 받는 것이다. 텍스쳐를 
 
 다음은 refresh 를 실행한 화면이다.
 
-![refresh 실행화면](https://github.com/IngIeoAndSpare/getTextureFromIndoorMap-seoul-/blob/master/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/loadSBM.png)
+![refresh 실행화면](https://github.com/IngIeoAndSpare/getTextureFromIndoorMap-seoul-/blob/master/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/loadSBM.png)  
 보다시피 indoor 에서 제공하는 건물의 목록이 나타나진다. 
